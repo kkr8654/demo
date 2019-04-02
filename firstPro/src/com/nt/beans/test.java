@@ -1,5 +1,7 @@
 package com.nt.beans;
 
 public class test {
-hkjhsadsadsd
+	public static void main(String[] args) {
+		System.out.println("main");
+	}
 }

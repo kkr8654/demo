@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <head>
+ <style>
+     *{
+         margin:0px;
+         padding:0px;
+     }
+     #c ul {
+         list-style: none;
+     }
+     #c ul li {
+         background-color: green;
+         width: 150px;
+         border: 3px solid;
+         line-height: 50px;
+         float: left;
+         color: white;
+         font-size: 18px;
+         text-align: center;
+         position:relative;
+
+     }
+     #c ul li:hover{
+         background-color: red;
+     }
+     #ul ul{
+         display:none;
+     }
+     #c ul li:hover > ul{
+         display:block;
+     }
+     #c ul ul ul {
+         margin-left:150px;
+         top:0px;
+         position:absolute;
+
+     }
+ </style>
+</head>
+
+<body>
+   <div  id="c">
+       <ul>
+            <li><a href="cc.html">home</a></li>
+            <li>About</li>
+           <li> <label for="k" >Entertainment</label>
+               <input list="k">
+               <select id="list" onchange="getSelectValue();">
+                   <option>movies</option>
+               <option>  Videos</option>
+               <option>classic mp3</option>
+               </select>
+                   <script>
+                          function getSelectValue()
+                       {
+                       var value=document.getElementById("list").value;
+                       if(value =='movies'){
+                      movies= <a href="https://www.youtube.com/watch?v"> </a>
+                           <input type="submit" value="submit">
+                 }
+
+                       }
+                   </li>
+           <li><label >feedback <br><label for="comments">Enter ur Message</label>
+                <input type="submit" value="submit">
+               <textarea rows="5" cols="10"  ></textarea>
+           </label>
+
+           </li></script>
+           <li>Contact to KKR</li>
+       </ul>
+       &nbsp
+       <br><br><br>
+        <br><br><br>  &nbsp
+       <br><br><br>
+        <br>
+       
+        &nbsp
+       <br><br><br>
+        <br><br><br>  &nbsp
+       <br>
+      
+       <h2>&nbsp &nbsp &nbsp &nbsp<font size="14"> <span style="color:red"> * its upto you,how far you go.if you don't try,you never know </span></font> </h2>
+        <img src="z1.jpg" height="1000" style="width:80%">
+   </div>
+   <div ></div>
+ 
+</div>
+  
+</body>

@@ -1,0 +1,328 @@
+
+
+<!DOCTYPE html>
+ <head> 
+<style>
+  
+
+
+  p.italic {
+  font-family: Times, Times New Roman, Georgia, serif;
+}
+
+.sansserif {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: Lucida Console, Courier, monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+   * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 4000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* The dots/bullets/indicators 
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5.5s;
+  animation-name: fade;
+  animation-duration: 5.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 600px) {
+  .text {font-size: 11px}
+}
+   
+   
+   
+   #d1{
+   border:20;
+   height:550px;
+   width:1300px;
+   border-color:pink;
+   background-image:url("u3.jpg");
+   border-left:15px dotted blue;
+   border-right:15px dashed lightsalmon;
+   border-top:17px dotted orange;
+   margin: 10px;
+   padding:10px ;
+   outline-width:10px;
+   outline-style:solid;
+   outline-color:red;
+  } &nbsp;
+
+#h1{
+border:5px;
+border-color:yellow;
+border-radius:10px;
+background-color:rgb(0, 255, 55);
+border-style:dashed;
+}
+ #c{
+  width:1400px;
+  height:200px;
+  padding:10px;
+  
+  }
+
+  #p1{
+  background-color:rgb(0, 255, 55);
+  width:600px;
+  height:200px;
+  padding:10px;
+  
+  }
+  .p2{
+  background-image:url("u4.jpg");
+  border:3px solid green;
+  border-radius:220px;
+/*   border-width:2px;
+border-color:red;
+   border-style:dotted;
+  */ }
+#p3{
+
+   border-width:20px;
+   border-color:black;
+   border-style:solid;
+   background-color:blue;
+   border :200px;
+   }
+   #ss{
+  
+background-color:pink;
+border-radius:2px;
+
+   }
+   
+   *{
+         margin:0px;
+         padding:0px;
+     }
+     #c ul {
+         list-style: none;
+     }
+     #c ul li {
+         background-color: rgb(243, 33, 18);
+         width: 150px;
+         border: 3px solid;
+         line-height: 50px;
+         float: left;
+         color: white;
+         font-size: 18px;
+         text-align: center;
+         position:relative;
+
+     }
+     #c ul li:hover{
+         background-color: red;
+     }
+     #ul ul{
+         display:none;
+     }
+     #c ul li:hover > ul{
+         display:block;
+     }
+     #c ul ul ul {
+         margin-left:150px;
+         top:0px;
+         position:absolute;
+
+     }
+  
+</style>
+<body>
+      <marquee><h2>&nbsp &nbsp &nbsp &nbsp<font size="6"> kundan kumar raj </font> <span style="color:green"> [sathyabama university,chennai]</span></h2></marquee>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+     
+
+  <img src="f1.jpg" height="550" style="width:100%">
+ </div>
+
+<div class="mySlides fade">
+  <img src="u4.jpg" height="550" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img  src="u2.jpg" height="550" style="width:100%">
+ 
+</div>
+<div class="mySlides fade">
+  <img  src="u5.jpg" height="550" style="width:100%">
+ 
+</div>
+</div>
+<div class="mySlides fade">
+  <img  src="u7.jpg" height="550" style="width:100%">
+ 
+</div>
+</div>
+<div class="mySlides fade">
+  <img  src="u8.jpg" height="550" style="width:100%">
+  
+</div>
+<marquee style="font-family: Book Antiqua; color: #FFFFFF" bgcolor="#000080"  direction="right"><font  size="10">.conditions without Love ,selfies without smile , drugs without dream , mobile without talk , drinking without fun have</font></marquee>
+   <marquee><h2>&nbsp &nbsp &nbsp &nbsp<font size="6">*Be unique*</h2></marquee>
+ <!--   <p class="italic">This is a paragraph in italic style.</p>
+    <p class="sansserif">This is a paragraph in italic style.</p>
+    <p class="monospace ">This is a paragraph in italic style.</p>
+    <p class="cursive">This is a paragraph in italic style.</p> -->
+    <p class="italic"> <marquee>  &nbsp &nbsp &nbsp &nbsp <span style="color:blue" ><font  size="10">  " its upto you , how far you go , if you don't try , you never know "</span></font></marquee>
+      <div style="text-align:center"></p>
+</div>
+  
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 6000); // Change image every 2 seconds
+}
+</script>
+<div id="d1">
+    <font size="6" color="white"><span style="color:red">	first name:</span>&nbsp <input type="text" placeholder="enter ur 1st name"><br>
+	last name :&nbsp <input type="text" placeholder="enter ur last name"><br>
+   <br>
+   <label>select a language</label>
+   <select>
+        <option>html</option>
+		<option>css</option>
+		<option>js</option>
+	<optgroup label><option>js</option>>
+        <option> aa</option>
+		<option> bb</option>
+	</optgroup>
+	</select><br><br>
+<label>select your DOB</label>
+ <input type="date"><br><br>
+	gender :<span style="color:orange">male<input type="radio" name="gen" value="male"  checked></span>
+           female<input type="radio" name="gen"value="female" checked> 
+      
+	  <input type="submit" value="submit"> &nbsp
+	  <a href="bb.html"><span style="color:blue">goto</span></a>
+	  <br><br>
+<a href ="https://www.facebook.com/kundan.kumarraj.9803?ref=bookmarks" ><span style="color:red"> facebook</span></a>
+
+ <a href="https://www.youtube.com/watch?v=GHvp_-ho8P0"><span style="color:white">youtube</span></a>
+<br>
+<br>
+<br>
+<br>
+</div>
+
+ 
+  <div id="p1">
+   
+		   <div id="p1">
+<h2>&nbsp &nbsp &nbsp &nbsp<font size="6"> <span style="color:red"> love you all.... </span></font> </h2>
+    <table class="p2" border =2, width =400,height=600,border color=black >
+	  <thead id="p3">
+		  
+		   <tr>
+		      <th>sno</th>
+		      <th>name</th>
+	          <th>address</th>
+		  </tr>
+      </thead>	
+	  
+		  <tr>
+		        <td>1</td>
+				<td>KKR</td>
+				<td>patna</td>
+		  </tr>
+		  <tr>
+		        <td>2</td>
+				<td>ujjwal tivari</td>
+				<td>patna</td>
+		  </tr>
+		 
+		 <tr>
+		        <td>3</td>
+				<td>subh choudhary</td>
+				<td>jharkhandi</td>
+		  </tr>
+		 
+		  <tr>
+			    <td>4</td>
+				<td><span style="color:red">all my friend</span></td>
+				<td>across d world</td>
+           </tr>
+		   </table> 
+		  <br>
+		    
+		  <br>
+           <a href="aa.html"><span style="color:black">#goto to top</span></a>
+      
+           
+            <ul><br><br>
+		   </div>
+      <ul><br><br> <ul><br><br> <ul><br><br> <ul>
+       <br><br>
+       <div  id="c">
+          
+		  <marquee style="font-family: Book Antiqua; color: #FFFFFF" bgcolor="#000050" direction="down" height="630" > &nbsp &nbsp<font size="6"> <span style="color:yellow"><span style="width :1550">if my absence doesn't alter your life,then my presence nothing meaning in it.
+		   <marquee >  &nbsp &nbsp &nbsp &nbsp <span style="color:blue" ><font  size="10">  " its upto you , how far you go , if you don't try , you never know "</span></font></marquee>
+		  <marquee style="font-family: Book Antiqua; color: #FFFFFF"  direction="right"><font  size="10">.conditions without Love ,selfies without smile , drugs without dream , mobile without talk , drinking without fun have</font></marquee>
+		  <br> &nbsp &nbsp &nbsp &nbsp &nbsp    &nbsp &nbsp &nbsp &nbsp &nbsp    &nbsp &nbsp &nbsp &nbsp &nbsp    &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp       </span></font> <span style="color:orange"> *indraj*
+		  </span></marquee>
+
+		
+      </div>
+
+		   </body>

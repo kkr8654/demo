@@ -1,0 +1,18 @@
+<web-app>
+     
+ <display-name>MairrageApp</display-name>
+ 
+ <welcome-file-list>
+   <welcome-file>Input.html</welcome-file>
+ </welcome-file-list>
+ 
+ <servlet>
+ <servlet-name> ma</servlet-name>
+ <servlet-class>com.nit.servlet.MirrageServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name> ma</servlet-name>
+ <url-pattern>/mar</url-pattern>
+ </servlet-mapping>
+ </web-app>
